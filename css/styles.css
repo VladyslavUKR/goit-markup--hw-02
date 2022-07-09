@@ -10,6 +10,8 @@
 /* ================COMPONENTS================ */
 body {
     font-family: var(--primary-page-font);
+    font-size: 14px;
+    etter-spacing 0.03em
 }
 
 .list {
@@ -21,22 +23,18 @@ body {
 }
 /* ================HEADER================ */
 .logotype {
-        font-family: var(--secondary-page-font)
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.20;
-        letter-spacing: 0.03em;
-        color: var(--accent-page-color);
+    font-family: var(--secondary-page-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    color: var(--accent-page-color)
 }
-
 span {
     color:#000
 
 }
 .menu-link {
-        font-family:var(--primary-page-font);
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
     
@@ -48,11 +46,8 @@ span {
 }
 
 .contacts-link {
-        font-family: var(--primary-page-font);
         font-weight: 400;
-        font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
         color: var(--secondary-page-color);
 }
 .contacts-link:hover,
@@ -63,7 +58,6 @@ span {
 /* ================/HEADER================ */
 /* ================HERO================ */
 .hero-title {
-        font-family: var(--primary-page-font);
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -73,7 +67,6 @@ span {
         /* color: #FFF; */
 }
 .model-btn {
-        font-family: var(--primary-page-font);
         background: #2196F3;
         font-weight: 700;
         font-size: 16px;
@@ -94,44 +87,35 @@ span {
 /* ================/HERO================ */
 /* ================ADVANTEGES================ */
 .advantages-title {
-        font-family: var(--primary-page-font);
         font-weight: 700;
-        font-size: 14px;
         line-height: 1.14;
-        letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--primary-page-color);
 }
 .advantages-text {
-        font-family: var(--primary-page-font);
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
         color: var(--secondary-page-color);
 }
 /* ================/ADVANTEGES================ */
 /* ================ABOUT================ */
 .about-mail-title {
-        font-family: var(--primary-page-font);
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--primary-page-color);
 }
 /* ================/ABOUT================ */
 /* ================EMPLOYEES================ */
 .employees-main-title {
-        font-family: var(--primary-page-font);
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--primary-page-color);
 }
 .employees-secondary-title {
@@ -141,7 +125,6 @@ span {
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--primary-page-color);
 }
 .employees-text {
@@ -151,17 +134,59 @@ span {
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--secondary-page-color);
 }
 /* ================/EMPLOYEES================ */
+
+
+/* =======MAIN PAGE PORTFOLIO ======== */
+.btn-list {
+        font-family: var(--primary-page-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+    
+        color: var(--primary-page-color);
+}
+.page-btn:hover,
+.page-btn:focus {
+        color: #FFFFFF;
+        background: #2196F3;
+        /* shadow-middle */
+    
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        cursor: pointer;
+
+}
+.portfolio-title {
+    font-family: var(--primary-page-font);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+    
+        letter-spacing: 0.06em;
+    
+        color: var(--primary-page-color);
+}
+
+.portfolio-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+    
+        color: var(--secondary-page-color);
+}
+/* =======/MAIN PAGE PORTFOLIO ======== */
+
 /* ================/FOOTER================ */
 .footer-logo {
         font-family: var(--secondary-page-font);
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        letter-spacing: 0.03em;
         color:var(--accent-page-color);
 }
 
@@ -170,20 +195,14 @@ span {
 } */
 
 .footer-link-map {
-        font-family: var(--primary-page-font);
         font-weight: 400;
-        font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
     
         /* color: #FFFFFF; */
 }
 .footer-link {
-        font-family:var(--primary-page-font);
         font-weight: 400;
-        font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
     
         color: rgba(255, 255, 255, 0.6);
 }
