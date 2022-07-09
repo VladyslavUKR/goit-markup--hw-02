@@ -11,7 +11,7 @@
 body {
     font-family: var(--primary-page-font);
     font-size: 14px;
-    etter-spacing 0.03em
+    letter-spacing: 0.03em;
 }
 
 .list {
