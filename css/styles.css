@@ -22,6 +22,12 @@ body {
     text-decoration: none;
 }
 /* ================HEADER================ */
+
+.menu-link.link.current {
+        color:var(--accent-page-color)
+}
+
+
 .logotype {
     font-family: var(--secondary-page-font);
     font-weight: 700;
