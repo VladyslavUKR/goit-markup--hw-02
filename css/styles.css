@@ -4,7 +4,7 @@
     --primary-page-color: #212121;
     --secondary-page-color:#757575;
     --accent-page-color: #2196F3;
-    
+    --secondary-accent-page-color:#fff;
 }
 
 /* ================COMPONENTS================ */
@@ -12,6 +12,7 @@ body {
     font-family: var(--primary-page-font);
     font-size: 14px;
     letter-spacing: 0.03em;
+    background-color: var(--secondary-accent-page-color);
 }
 
 .list {
@@ -52,7 +53,7 @@ span {
 }
 
 .contacts-link {
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1.71;
         color: var(--secondary-page-color);
 }
@@ -63,6 +64,10 @@ span {
 }
 /* ================/HEADER================ */
 /* ================HERO================ */
+
+.hero {
+        background-color: #2F303A;
+}
 .hero-title {
         font-weight: 900;
         font-size: 44px;
@@ -70,7 +75,7 @@ span {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFF;
+        color: var(--secondary-accent-page-color);
 }
 .model-btn {
         background: #2196F3;
@@ -82,7 +87,7 @@ span {
         text-align: center;
         letter-spacing: 0.06em;
         cursor: pointer;
-        color: #FFFFFF;
+        color: var(--secondary-accent-page-color);
 }
 .model-btn:hover,
 .contacts-link:focus {
@@ -93,23 +98,19 @@ span {
 /* ================/HERO================ */
 /* ================ADVANTEGES================ */
 .advantages-title {
-        font-weight: 700;
+        font-size: 14px;
         line-height: 1.14;
         text-transform: uppercase;
         color: var(--primary-page-color);
 }
 .advantages-text {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
+
         line-height: 1.71;
         color: var(--secondary-page-color);
 }
 /* ================/ADVANTEGES================ */
 /* ================ABOUT================ */
-.about-mail-title {
-        font-style: normal;
-        font-weight: 700;
+.section-title {
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
@@ -117,16 +118,9 @@ span {
 }
 /* ================/ABOUT================ */
 /* ================EMPLOYEES================ */
-.employees-main-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        color: var(--primary-page-color);
-}
+
 .employees-secondary-title {
-        font-family: var(--primary-page-font);
-        font-style: normal;
+
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
@@ -134,9 +128,7 @@ span {
         color: var(--primary-page-color);
 }
 .employees-text {
-        font-family: var(--primary-page-font);
-        font-style: normal;
-        font-weight: 400;
+
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
@@ -146,7 +138,9 @@ span {
 
 
 /* =======MAIN PAGE PORTFOLIO ======== */
-.btn-list {
+
+.page-btn {
+        font-family: inherit;
         font-family: var(--primary-page-font);
         font-weight: 500;
         font-size: 16px;
@@ -155,9 +149,13 @@ span {
     
         color: var(--primary-page-color);
 }
+.page-btn:current {
+        background-color: var(--accent-page-color);
+        color: var(--secondary-accent-page-color);
+}
 .page-btn:hover,
 .page-btn:focus {
-        color: #FFFFFF;
+        color: var(--secondary-accent-page-color);
         background: #2196F3;
     
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -166,18 +164,16 @@ span {
 
 }
 .portfolio-title {
-    font-family: var(--primary-page-font);
-        font-weight: 700;
+
         font-size: 18px;
         line-height: 2;
-    
         letter-spacing: 0.06em;
     
         color: var(--primary-page-color);
 }
 
 .portfolio-text {
-        font-style: normal;
+        
         font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
@@ -187,6 +183,12 @@ span {
 /* =======/MAIN PAGE PORTFOLIO ======== */
 
 /* ================/FOOTER================ */
+.footer {
+        background-color: #2F303A;
+}
+.address {
+        font-style: normal;
+}
 .footer-logo {
         font-family: var(--secondary-page-font);
         font-weight: 700;
@@ -196,16 +198,25 @@ span {
 }
 
 span {
-    color:#FFFFFF
+    color: var(--secondary-accent-page-color);
 }
 
 .footer-link-map {
         font-weight: 400;
         line-height: 1.71;
     
-        color: #FFFFFF;
+        color: var(--secondary-accent-page-color);
 }
+
+
+.footer-link:focus,
+.footer-link:hover {
+        color:var(--accent-page-color);
+}
+
+
 .footer-link {
+
         font-weight: 400;
         line-height: 1.71;
     
