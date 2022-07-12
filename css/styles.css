@@ -78,6 +78,7 @@ span {
         color: var(--secondary-accent-page-color);
 }
 .model-btn {
+        font-family: inherit;
         background: #2196F3;
         font-weight: 700;
         font-size: 16px;
@@ -173,8 +174,7 @@ span {
 }
 
 .portfolio-text {
-        
-        font-weight: 400;
+
         font-size: 16px;
         line-height: 1.88;
     
