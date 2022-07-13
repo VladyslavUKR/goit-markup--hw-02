@@ -150,7 +150,7 @@ span {
     
         color: var(--primary-page-color);
 }
-.page-btn:current {
+.page-btn.current {
         background-color: var(--accent-page-color);
         color: var(--secondary-accent-page-color);
 }
@@ -195,10 +195,6 @@ span {
         font-size: 26px;
         line-height: 1.19;
         color:var(--accent-page-color);
-}
-
-span {
-    color: var(--secondary-accent-page-color);
 }
 
 .footer-link-map {
